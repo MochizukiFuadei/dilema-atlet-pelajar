@@ -230,11 +230,38 @@ body{
 }
 .sec-4{
     padding-top:50px;
+    padding-bottom:20px;
 }
 
 .title-4{
     color: #c20e1a; 
     font-family: kings;
+}
+.profile{
+    position: relative;
+}
+.klik_kiri_4{
+    position: absolute;
+    top:20%;
+    left:10%;
+}
+.klik_kanan_4{
+    position: absolute;
+    top:40%;
+    right:8%;
+}
+.topi_wisuda_4_1{
+    position: absolute;
+    top:0;
+    left:35%;
+    -ms-transform: rotate(-45deg); /* IE 9 */
+    -webkit-transform: rotate(-45deg); /* Safari 3-8 */
+    transform: rotate(-45deg);
+}
+.topi_wisuda_4_2{
+    position: absolute;
+    top:0;
+    right:30%;
 }
 .defia{
     width:47%;
@@ -247,7 +274,7 @@ body{
 }
 .dilla{
     width:47%;
-    float:left;
+    float:right;
     margin-left:-10%;
 }
 .atlet-name{
@@ -271,4 +298,46 @@ body{
 .title-univ{
     color:#c20e1a;
     text-align:center;
+}
+.dialog-body-1{
+    margin-left:37px;
+    border:#c20e1a 3px solid;
+    background: #f0f0f0;
+    border-radius:5px;
+    padding:30px;
+}
+.dialog-body-2{
+    margin-top:30px;
+    margin-right:50px;
+    border:#c20e1a 3px solid;
+    background: #f0f0f0;
+    border-radius:5px;
+    padding:30px;
+}
+.topi_wisuda_4_4{
+    -ms-transform: rotate(-45deg); /* IE 9 */
+    -webkit-transform: rotate(-45deg); /* Safari 3-8 */
+    transform: rotate(-45deg);
+    margin-left:50px;
+}
+.dialog-profile{
+    font-family: gothambold;
+}
+.numba{
+    font-family: kings;
+    font-size:15vh;
+    color:#c20e1a;
+    margin-top:0;
+    padding-top:0;
+}
+.title-bro{
+    font-family: gothambold;
+    font-size:3.5vh;
+    color:#c20e1a;
+}
+.body-bro{
+    margin-top:20px;
+}
+.podium-bro{
+    margin-top:-125px;
 }
