@@ -236,3 +236,39 @@ body{
     color: #c20e1a; 
     font-family: kings;
 }
+.defia{
+    width:47%;
+    float:left;
+    margin-right:-10%;
+}
+.ceyco{
+    width:25%;
+    float:left;
+}
+.dilla{
+    width:47%;
+    float:left;
+    margin-left:-10%;
+}
+.atlet-name{
+    text-align: center;
+    color:#c20e1a;
+}
+.name-defia{
+    margin-top:60px;
+}
+.name-dilla{
+    margin-top:140px;
+}
+.sub-title-4{
+    font-size:6vh;
+    font-family: BlackoutMidnight;
+    color:#c20e1a;
+}
+.body-sub-4{
+    padding-top:70px;
+}
+.title-univ{
+    color:#c20e1a;
+    text-align:center;
+}
