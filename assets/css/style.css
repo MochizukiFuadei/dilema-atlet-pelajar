@@ -1,0 +1,238 @@
+@font-face {
+    font-family: BlackoutMidnight;
+    src: url('../font/fonthaigodeeper/Blackout\ Midnight.ttf');
+}
+@font-face {
+    font-family: gotham;
+    src: url('../font/fonthaigodeeper/Gotham-Book.otf');
+}
+@font-face {
+    font-family: gothambold;
+    src: url('../font/fonthaigodeeper/Gotham-Bold.otf');
+}
+@font-face {
+    font-family: kings;
+    src: url('../font/fonthaigodeeper/KingsofKingsLynn.otf');
+}
+@font-face {
+    font-family: bebas;
+    src: url('../font/fonthaigodeeper/BebasNeue.otf');
+}
+*{
+    margin:0;
+    padding:0;
+}
+p{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+body{
+    margin:0;
+    padding:0;
+    font-family: gotham;
+    font-size:2.3vh;
+    position: relative;
+}
+.posrel{
+    position: relative;
+}
+.title-sec{
+    font-size: 14vh;
+    line-height:1em;
+}
+.sub-title-sec{
+    font-size: 7vh;
+    line-height:1em;
+}
+.padding-top-50{
+    padding-top:50px;
+}
+.siswa-siswi{
+    margin-top:200px;
+}
+.sec-1{
+    background: #c20e1a; 
+}
+.title-sec-1{
+    margin-top:100px;
+}
+.subsec{
+    position: relative;
+}
+.tangan-kertas{
+    position: absolute;
+    left:0;
+}
+.tangan-medali{
+    position: absolute;
+    right:0;
+}
+.tengah-margin{
+    margin-left:auto;
+    margin-right:auto;
+}
+.bercak-kiri{
+    position: absolute;
+    left:0;
+}
+.bercak-kanan{
+    position: absolute;
+    right:0;
+    top:20px;
+}
+.tangan{
+    margin-top:-50px;
+}
+.sec-2{
+    background: #FFF; 
+    padding-top:20px;
+}
+.pre-2{
+    margin-top:-90px;
+    text-align: center;
+}
+.title-2{
+    margin-top:20px;
+    color: #c20e1a; 
+    margin-bottom:20px;
+    font-family: BlackoutMidnight;
+}
+.chat{
+    width:48%;
+    padding:1%;
+    float:right;
+    margin-top:-10%;
+}
+.hp{
+    width:48%;
+    padding:1%;
+    float:left;
+}
+.socmed{
+    width:33.33333%;
+    height:300px;
+    padding:1%;
+    float:left;
+    position: relative;
+}
+.instagram{
+    position: absolute;
+    left:0;
+}
+.facebook{
+    position: absolute;
+    right:0;
+    top:33%;
+}
+.twitter{
+    position: absolute;
+    left:0;
+    top:66%;
+}
+.sec-5{
+    background: #c20e1a; 
+    padding-bottom : 20px;
+    padding-top:70px;
+}
+.bth{
+    color:#FFF;
+    text-decoration: none;
+    font-family: kings;
+    font-size: 5vh;
+    line-height: 1.25em;
+}
+.bth-home{
+    font-size:9vh!important;
+}
+.sec-3{
+    background:#f0f0f0;
+}
+.title-3{
+    padding-top:50px;
+    color: #c20e1a; 
+    padding-bottom:20px;
+    font-family: kings;
+}
+.main-bola{
+    right:0;
+    width:50%;
+    margin-top:-290px;
+    position: absolute;
+}
+.sub-title-3{
+    float:left;
+    width:48%;
+    font-family: BlackoutMidnight;
+    color:#c20e1a;
+}
+.mading{
+    right:0;
+    left:0;
+    width:100%;
+}
+.isi-mading{
+    width: 97%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:75px;
+    top:0;
+    position: absolute;
+    padding:0 7%;
+}
+.title-mading{
+    color: #c20e1a; 
+    padding-bottom:20px;
+    font-family: bebas;
+    font-size:7vh;
+    text-align: center;
+}
+.body-mading{
+    padding:10px 0;
+}
+.box{
+    width:20%;
+    float:left;
+    font-family: gotham;
+    color: #c20e1a; 
+    text-align: center;
+}
+.box img{
+    padding:0 10%;
+}
+.box-atlet{
+    font-family: gothambold;
+}
+.klik_kiri_3{
+    margin-top:30%;
+}
+.klik_kanan_3{
+    margin-top:30%;
+}
+.wow_3{
+    position: absolute;
+    left:10%;
+    top:10%;
+}
+.kece_3{
+    position: absolute;
+    right:10%;
+    top:10%;
+}
+.mantul_3{
+    position: absolute;
+    left:38%;
+    top:35%;
+}
+.keren_3{
+    position: absolute;
+    right:15%;
+    bottom:10%;
+}
+.sec-4{
+    padding-top:50px;
+}
+
+.title-4{
+    color: #c20e1a; 
+    font-family: kings;
+}
