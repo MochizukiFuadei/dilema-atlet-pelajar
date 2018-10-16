@@ -22,6 +22,10 @@
     margin:0;
     padding:0;
 }
+a{
+    text-decoration: none!important;
+    color:#c20e1a!important;
+}
 p{
     margin-top:20px;
     margin-bottom:20px;
@@ -107,6 +111,18 @@ body{
     width:48%;
     padding:1%;
     float:left;
+    position: relative;
+}
+.comment{
+    position: absolute;
+    top:0;
+    left:27%;
+    height:50%;
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:30%;
+    overflow: scroll;
 }
 .socmed{
     width:33.33333%;
