@@ -37,6 +37,9 @@ body{
     font-size:2.3vh;
     position: relative;
 }
+.intro{
+    font-weight: bold;
+}
 .posrel{
     position: relative;
 }
@@ -314,6 +317,7 @@ body{
 .title-univ{
     color:#c20e1a;
     text-align:center;
+    font-family: gothambold;
 }
 .dialog-body-1{
     margin-left:37px;
@@ -356,4 +360,5 @@ body{
 }
 .podium-bro{
     margin-top:-125px;
+    width:100%;
 }
