@@ -43,19 +43,223 @@ body{
 .posrel{
     position: relative;
 }
-.title-sec{
-    font-size: 14vh;
-    line-height:1em;
-}
-.sub-title-sec{
-    font-size: 7vh;
-    line-height:1em;
-}
 .padding-top-50{
     padding-top:50px;
 }
+
+@media only screen and (min-width: 481px) {
+    .title-sec{
+        font-size: 10vh;
+        line-height:1em;
+    }
+    .hp{
+        width:48%;
+        padding:1%;
+        float:left;
+        position: relative;
+    }
+    .socmed{
+        width:33.33333%;
+        height:300px;
+        padding:1%;
+        float:left;
+        position: relative;
+    }
+    .instagram{
+        position: absolute;
+        left:0;
+    }
+    .facebook{
+        position: absolute;
+        right:0;
+        top:33%;
+    }
+    .twitter{
+        position: absolute;
+        left:0;
+        top:66%;
+    }
+    .comment{
+        position: absolute;
+        top:0;
+        left:17%;
+        height:60%;
+        width:47%;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top:20%;
+        overflow: scroll;
+    }
+    .awan-3{
+        width:300px;
+    }
+    .main-bola{
+        right:0;
+        width:50%;
+        margin-top:-28%;
+        position: absolute;
+    }
+    .sub-title-3{
+        float:left;
+        width:58%;
+        font-family: BlackoutMidnight;
+        color:#c20e1a;
+        padding-top:5%;
+    }
+    .sub-title-sec{
+        font-size: 7vh;
+        line-height:1em;
+    }
+    .sub-title-4{
+        font-size:6vh;
+        font-family: BlackoutMidnight;
+        color:#c20e1a;
+    }
+    .garis-tanah{
+        margin-top:-1.6%;
+    }
+    .defia-img{
+        width:100%;
+    }
+    .ceyco-img{
+        width:100%;
+        margin-top:-50%;
+    }
+    .dilla-img{
+        width:100%;
+    }
+    .defia{
+        width:47%;
+        float:left;
+        margin-right:-10%;
+    }
+    .ceyco{
+        width:25%;
+        float:left;
+    }
+    .dilla{
+        width:47%;
+        float:right;
+        margin-left:-10%;
+    }
+    .numba{
+        font-family: kings;
+        font-size:15vh;
+        color:#c20e1a;
+        margin-top:0;
+        padding-top:0;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .title-sec{
+        font-size: 7vh;
+        line-height:1em;
+    }
+    .hp{
+        width:73%;
+        padding:1%;
+        float:left;
+        position: relative;
+    }
+    .socmed{
+        width:23%;
+        height:300px;
+        padding:1%;
+        float:right;
+        position: relative;
+    }
+    .instagram{
+        position: absolute;
+        left:0;
+    }
+    .facebook{
+        position: absolute;
+        right:0;
+        top:25%;
+    }
+    .twitter{
+        position: absolute;
+        left:0;
+        top:50%;
+    }
+    .comment{
+        position: absolute;
+        top:0;
+        left:17%;
+        height:60%;
+        width:70%;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top:20%;
+        overflow: scroll;
+    }
+    .awan-3{
+        width:30%;
+    }
+    .main-bola{
+        margin-left:auto;
+        margin-right:auto;
+        width:75%;
+        margin-top:-28%;
+    }
+    .sub-title-3{
+        width:100%;
+        font-family: BlackoutMidnight;
+        color:#c20e1a;
+    }
+    .sub-title-sec{
+        font-size: 5vh;
+        line-height:1em;
+    }
+    .sub-title-4{
+        font-size:4vh;
+        font-family: BlackoutMidnight;
+        color:#c20e1a;
+    }
+    .garis-tanah{
+        margin-top:-6%;
+    }
+    .defia-img{
+        width:70%;
+    }
+    .ceyco-img{
+        width:60%;
+    }
+    .dilla-img{
+        width:70%;
+    }
+    .defia{
+        width:100%;
+    }
+    .ceyco{
+        width:100%;
+        margin-top:-50%;
+    }
+    .dilla{
+        width:100%;
+    }
+    .box-prof{
+        width:100%;
+        margin-bottom:5%;
+    }
+    .box-prof-foot{
+        color:#c20e1a;
+        margin-top:5%;
+    }
+    .statuses{
+        font-size:3vh;
+        font-weight: bold;
+    }
+    .numba{
+        font-family: kings;
+        font-size:10vh;
+        color:#c20e1a;
+        margin-top:0;
+        padding-top:0;
+    }
+}
 .siswa-siswi{
-    margin-top:200px;
+    margin-top:20%;
 }
 .sec-1{
     background: #c20e1a; 
@@ -110,44 +314,6 @@ body{
     float:right;
     margin-top:-10%;
 }
-.hp{
-    width:48%;
-    padding:1%;
-    float:left;
-    position: relative;
-}
-.comment{
-    position: absolute;
-    top:0;
-    left:27%;
-    height:50%;
-    width:42%;
-    margin-left:auto;
-    margin-right:auto;
-    margin-top:30%;
-    overflow: scroll;
-}
-.socmed{
-    width:33.33333%;
-    height:300px;
-    padding:1%;
-    float:left;
-    position: relative;
-}
-.instagram{
-    position: absolute;
-    left:0;
-}
-.facebook{
-    position: absolute;
-    right:0;
-    top:33%;
-}
-.twitter{
-    position: absolute;
-    left:0;
-    top:66%;
-}
 .sec-5{
     background: #c20e1a; 
     padding-bottom : 20px;
@@ -172,21 +338,6 @@ body{
     color: #c20e1a; 
     padding-bottom:20px;
     font-family: kings;
-}
-.awan-3{
-    width:300px;
-}
-.main-bola{
-    right:0;
-    width:50%;
-    margin-top:-290px;
-    position: absolute;
-}
-.sub-title-3{
-    float:left;
-    width:48%;
-    font-family: BlackoutMidnight;
-    color:#c20e1a;
 }
 .mading{
     right:0;
@@ -286,20 +437,6 @@ body{
     top:0;
     right:30%;
 }
-.defia{
-    width:47%;
-    float:left;
-    margin-right:-10%;
-}
-.ceyco{
-    width:25%;
-    float:left;
-}
-.dilla{
-    width:47%;
-    float:right;
-    margin-left:-10%;
-}
 .atlet-name{
     text-align: center;
     color:#c20e1a;
@@ -309,11 +446,6 @@ body{
 }
 .name-dilla{
     margin-top:140px;
-}
-.sub-title-4{
-    font-size:6vh;
-    font-family: BlackoutMidnight;
-    color:#c20e1a;
 }
 .body-sub-4{
     padding-top:70px;
@@ -347,13 +479,6 @@ body{
 .dialog-profile{
     font-family: gothambold;
 }
-.numba{
-    font-family: kings;
-    font-size:15vh;
-    color:#c20e1a;
-    margin-top:0;
-    padding-top:0;
-}
 .title-bro{
     font-family: gothambold;
     font-size:3.5vh;
@@ -361,6 +486,7 @@ body{
 }
 .body-bro{
     margin-top:20px;
+    margin-bottom:20px;
 }
 .podium-bro{
     width:100%;
