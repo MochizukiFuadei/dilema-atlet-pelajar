@@ -118,15 +118,27 @@ body{
     .garis-tanah{
         margin-top:-1.6%;
     }
+    .atlet-name{
+        text-align: center;
+        color:#c20e1a;
+    }
     .defia-img{
         width:100%;
     }
     .ceyco-img{
         width:100%;
-        margin-top:-50%;
     }
     .dilla-img{
         width:100%;
+    }
+    .defia-statement{
+        text-align:center;
+    }
+    .ceyco-statement{
+        text-align:center;
+    }
+    .dilla-statement{
+        text-align:center;
     }
     .defia{
         width:47%;
@@ -148,6 +160,12 @@ body{
         color:#c20e1a;
         margin-top:0;
         padding-top:0;
+    }
+    .semangat{
+        font-family: kings;
+        font-size:7vh;
+        color:#c20e1a;
+        margin-top:-25vh;
     }
 }
 @media only screen and (max-width: 480px) {
@@ -219,32 +237,88 @@ body{
     .garis-tanah{
         margin-top:-6%;
     }
+    .atlet-name{
+        text-align: center;
+        color:#c20e1a;
+        font-size:1.5vh;
+    }
     .defia-img{
-        width:70%;
+        width:80%;
     }
     .ceyco-img{
-        width:60%;
+        width:50%;
+        margin-left:17%;
     }
     .dilla-img{
-        width:70%;
+        width:80%;
+    }
+    .defia-judul{
+        position: absolute;
+        left:25%;
+        top:23%;
+    }
+    .ceyco-judul{
+        position: absolute;
+        right:10%;
+        top:50%;
+    }
+    .dilla-judul{
+        position: absolute;
+        left:10%;
+        top:30%;
+    }
+    .defia-statement{
+        text-align: right;
+    }
+    .defia-statement img{
+        width:30%;
+        margin-top:-10%;
+        margin-right:10%;
+    }
+    .ceyco-statement{
+        text-align: left;
+    }
+    .ceyco-statement img{
+        width:30%;
+        margin-top:-30%;
+        margin-left:10%;
+    }
+    .dilla-statement{
+        text-align: right;
+    }
+    .dilla-statement img{
+        width:30%;
+        margin-top:-30%;
+        margin-right:10%;
     }
     .defia{
         width:100%;
+        text-align:right;
     }
     .ceyco{
         width:100%;
-        margin-top:-50%;
+        margin-top:-30%;
     }
     .dilla{
         width:100%;
+        text-align:right;
+        margin-top:-20%;
     }
     .box-prof{
         width:100%;
         margin-bottom:5%;
     }
+    .box-prof-img{
+        width:29.333333333%;
+        padding:2%;
+        float:left;
+    }
     .box-prof-foot{
         color:#c20e1a;
+        width:61.66666667%;
         margin-top:5%;
+        padding:1%;
+        float:left;
     }
     .statuses{
         font-size:3vh;
@@ -256,6 +330,18 @@ body{
         color:#c20e1a;
         margin-top:0;
         padding-top:0;
+    }
+    .semangat{
+        font-family: kings;
+        font-size:3vh;
+        color:#c20e1a;
+        margin-top:-21%;
+    }
+    .papan{
+        width:75%;
+    }
+    .awan-4{
+        width:30%;
     }
 }
 .siswa-siswi{
@@ -437,10 +523,6 @@ body{
     top:0;
     right:30%;
 }
-.atlet-name{
-    text-align: center;
-    color:#c20e1a;
-}
 .name-defia{
     margin-top:60px;
 }
@@ -490,12 +572,6 @@ body{
 }
 .podium-bro{
     width:100%;
-}
-.semangat{
-    font-family: kings;
-    font-size:7vh;
-    color:#c20e1a;
-    margin-top:-25vh;
 }
 .lbl-foot{
     font-family: gothambold;
