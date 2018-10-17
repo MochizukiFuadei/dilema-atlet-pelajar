@@ -167,6 +167,10 @@ body{
         color:#c20e1a;
         margin-top:-25vh;
     }
+    .pre-2{
+        margin-top:-90px;
+        text-align: center;
+    }
 }
 @media only screen and (max-width: 480px) {
     .title-sec{
@@ -343,6 +347,13 @@ body{
     .awan-4{
         width:30%;
     }
+    .img-hai{
+        width:50px;
+    }
+    .pre-2{
+        margin-top:-50px;
+        text-align: center;
+    }
 }
 .siswa-siswi{
     margin-top:20%;
@@ -383,10 +394,6 @@ body{
 .sec-2{
     background: #FFF; 
     padding-top:20px;
-}
-.pre-2{
-    margin-top:-90px;
-    text-align: center;
 }
 .title-2{
     margin-top:20px;
