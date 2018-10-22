@@ -193,6 +193,16 @@ body{
         width:100%;
         height:400px;
     }
+    .klik_kiri_4{
+        position: absolute;
+        top:20%;
+        left:10%;
+    }
+    .klik_kanan_4{
+        position: absolute;
+        top:40%;
+        right:8%;
+    }
 }
 @media only screen and (max-width: 480px) {
     .title-sec{
@@ -398,6 +408,24 @@ body{
         width:100%;
         height:140px;
     }
+    .kanan-mobile-3{
+        position: absolute;
+        width:50px;
+        top:30%;
+        right:0;
+    }
+    .klik_kiri_4{
+        position: absolute;
+        top:20%;
+        left:10%;
+        width:50px;
+    }
+    .klik_kanan_4{
+        position: absolute;
+        top:60%;
+        right:8%;
+        width:50px;
+    }
 }
 .siswa-siswi{
     margin-top:20%;
@@ -550,16 +578,6 @@ body{
 }
 .profile{
     position: relative;
-}
-.klik_kiri_4{
-    position: absolute;
-    top:20%;
-    left:10%;
-}
-.klik_kanan_4{
-    position: absolute;
-    top:40%;
-    right:8%;
 }
 .topi_wisuda_4_1{
     position: absolute;
